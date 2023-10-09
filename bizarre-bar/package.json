@@ -1,5 +1,5 @@
 {
-  "name": "tested-ablation",
+  "name": "bizarre-bar",
   "type": "module",
   "version": "0.0.1",
   "scripts": {
@@ -10,17 +10,19 @@
     "astro": "astro"
   },
   "dependencies": {
+    "@astrojs/renderer-svelte": "^0.5.2",
+    "@astrojs/svelte": "^4.0.3",
     "@astrojs/tailwind": "^5.0.1",
+    "@astrojs/vercel": "^5.0.2",
     "astro": "^3.2.3",
-    "faunadb": "^4.8.0",
-    "flowbite-svelte-icons": "^0.4.4",
+    "flowbite": "^1.8.1",
+    "prettier-plugin-svelte": "^3.0.3",
+    "prettier-plugin-tailwindcss": "^0.5.5",
     "svelte": "^4.2.1",
     "tailwindcss": "^3.3.3"
   },
   "devDependencies": {
-    "@astrojs/svelte": "^4.0.3",
-    "daisyui": "^3.9.2",
-    "flowbite": "^1.8.1",
-    "flowbite-svelte": "^0.44.18"
+    "prettier": "^3.0.3",
+    "prettier-plugin-astro": "^0.12.0"
   }
 }
