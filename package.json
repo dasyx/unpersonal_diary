@@ -14,6 +14,8 @@
     "@astrojs/svelte": "^4.0.3",
     "@astrojs/tailwind": "^5.0.1",
     "@astrojs/vercel": "^5.0.2",
+    "@clerk/clerk-js": "^4.60.1",
+    "@supabase/supabase-js": "^2.38.0",
     "astro": "^3.2.3",
     "flowbite": "^1.8.1",
     "prettier-plugin-svelte": "^3.0.3",
